@@ -1,0 +1,23 @@
+{
+    "name": "dyfun/tags",
+    "description": "Laravel tags package",
+    "autoload": {
+        "psr-4": {
+            "Dyfun\\Tags\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tayfun Güler",
+            "email": "gulertayfun@outlook.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Dyfun\\Tags\\TagsServiceProvider"
+        ]
+      }
+    }
+}
