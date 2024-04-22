@@ -5,7 +5,7 @@ This package is a simple tag package for Laravel. It allows you to add tags to a
 You can install the package via composer:
 
 ```bash
--
+composer require dyfun/tags
 ```
 
 add the service provider to your config/app.php file:
@@ -16,6 +16,12 @@ add the service provider to your config/app.php file:
     Dyfun\Tags\TagsServiceProvider::class,
     ...
 ];
+```
+
+run
+
+```bash
+php artisan migrate
 ```
 
 ### Usage
